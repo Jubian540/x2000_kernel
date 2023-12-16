@@ -1,0 +1,8 @@
+obj-$(CONFIG_INGENIC_ISP_V2_CAMERA_IMX327) +=	imx327.o
+obj-$(CONFIG_INGENIC_ISP_V2_CAMERA_GC2093) +=	gc2093.o
+obj-$(CONFIG_INGENIC_ISP_V2_CAMERA_OV2735A) +=  ov2735a.o
+obj-$(CONFIG_INGENIC_ISP_V2_CAMERA_SC2310) +=  sc2310.o
+obj-$(CONFIG_INGENIC_ISP_V2_CAMERA_SC230AI) +=  sc230ai.o
+obj-$(CONFIG_INGENIC_ISP_V2_CAMERA_GC2155) +=  gc2155.o
+
+ccflags-y += -I$(srctree)/drivers/media/platform/ingenic-isp-v2/

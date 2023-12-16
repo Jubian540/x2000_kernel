@@ -1,0 +1,8 @@
+# DMA engine configuration for ingenic
+config INGENIC_DMA_RECEIVE_DXTERNAL_DECIDE
+	tristate "ingenic dma receiving data is externally determined"
+	depends on INGENIC_PDMAC && SOC_X1600
+	default n
+	---help---
+	How much data is received is externally determined
+

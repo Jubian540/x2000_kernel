@@ -1,0 +1,10 @@
+config INGENIC_HELIX
+	tristate "ingenic video helix"
+	depends on VIDEO_INGENIC_VCODEC
+config INGENIC_FELIX
+	tristate "ingenic video felix"
+	depends on VIDEO_INGENIC_VCODEC
+
+
+
+
